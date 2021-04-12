@@ -1,2 +1,3 @@
 let comebacks = ["That's why you're ugly","Mind your business","Sounds like broke in here"];
-console.log(comebacks[0])
+let message = comebacks[Math.floor(Math.random()* comebacks.length)]
+console.log(message)
